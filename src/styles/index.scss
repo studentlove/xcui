@@ -1,0 +1,33 @@
+// config  全局一些样式变量
+@import "variables";
+
+//layout  初始化样式
+@import "reboot";
+
+//mixin   一些函数  重复的代码 比如  @include button-size()使用
+@import "mixin";
+
+// animation  动画函数
+@import "animation";
+// button
+
+@import "../components/Button/style";
+
+// // menu
+
+@import "../components/Menu/style";
+
+// // icon
+// @import "../components/Icon/style";
+
+// //input
+// @import "../components/Input/style";
+
+// //auto-complete
+// @import "../components/AutoComplete/style";
+
+// //upload
+// @import "../components/Upload/style";
+
+// //progress
+// @import "../components/Progress/style";
